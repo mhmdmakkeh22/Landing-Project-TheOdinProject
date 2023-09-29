@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.link1{
+    text-decoration: none;
+    color: silver;
+    font-size: 30px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px   ;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.signup{
+    color: silver;
+    border-radius: 5%;
+    background-color: blue;
+    border-color: blue;
+}
+.maintext{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.subtext{
+    color: wheat;
+    font-size: 15px;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.info p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.content-top{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.content-images{
+    display: flex;
+    gap: 10%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.imgs{
+    border-color:red;
+    border-radius: 5% ;
+    border-style: solid;
+}
+.text{
+    color: #1f2937;
+    text-align: center;
+    font-size: large;
+}
+.content-middle{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.quote{
+    font-size: 30px;
+    text-align: center;
+}
+.name{
+    align-self: flex-end;
+}
+.content-bottom{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px 50px 150px;
+    width: 1000px;
+    height: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.maintext1{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    color: silver;
+    display: flex;
+    gap: 20px;
+    background-color: #1f2937;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
